@@ -49,6 +49,24 @@ $(document).ready(function() {
 			speed: 600,
 			easing: 'easeOutCirc'
 	});
+
+	$("#gallery2").jCarouselLite({
+			btnNext: ".next",
+		 	btnPrev: ".prev",
+       		mouseWheel: true,
+			visible: 3,
+			speed: 600,
+			easing: 'easeOutCirc'
+	});
+
+	$("#gallery3").jCarouselLite({
+			btnNext: ".next",
+		 	btnPrev: ".prev",
+       		mouseWheel: true,
+			visible: 3,
+			speed: 600,
+			easing: 'easeOutCirc'
+	});
 	
 	$('.prev span, .next span').css({opacity:0})
 	
